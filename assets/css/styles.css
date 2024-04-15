@@ -6,15 +6,54 @@
 
 
 }
-
-
-
-
-
-
-
-
-
+:root{
+    --color1:#343434;
+    --color2:#01d7f4;
+    --color3:#ffdf03;
+    --color4:#fd7b03;
+    --color5:#ff0014;
+    --color6:#fff;
+    --color7:#d2d2d2;
+    --color8:#480C6C;
+    --color9:#8A7131;
+}
+.cafe{
+    height: 60px;
+    background-color: var(--color9);
+    position: fixed;
+    padding-top: 20px;
+}
+.morado{
+    background-color: var(--color9);
+}
+.caja-nombre{
+    padding: 250px;
+    height: 150px;
+    background-color: var(--color9);
+}
+.caja-comentarios{
+    padding-top: 30px;
+    background-color: var(--color9);
+}
+.caja-correo{
+    padding: 30px;
+    background-color: var(--color9);  
+}
+.titulo-comentario{
+    height: 50px;
+    background-color: var(--color9);    
+}
+.caja-3img{
+    height: 350px;
+    background-color: var(--color9);
+    padding: 50px;
+}
+.barra-option{
+    background-color: var(--color9);
+}
+.Nosotros{
+    background-color: var(--color9);
+}
 body{
     background: f1fbff;
 }
@@ -51,7 +90,6 @@ body{
     left: 0;
     background: rgba(0,0,0,0.7);
     z-index: 1;
-
 }
 
 .Nosotros-text p {
@@ -84,10 +122,6 @@ body{
 .w-100{
     height: 100vh;
 }
-
-
-
-
 
 .fecha {
     font-size: 16px;
@@ -129,28 +163,18 @@ body{
     height: auto;
 }
 
+.bg-yellow {
+    background-color: yellow;
+}
 
-
-
-
-
-
-
-
-
+.trabajo-buttons-container {
+    text-align: center;
+    padding: 20px 0;
+}
 
 
   /* === responsive css === */
 
-  @media only screen and (min-width: 768px) and (max-widht: 991px){
-    .carousel-caption{
-        bottom: 370px;
-
-    }
-    .carousel-caption p{
-        width: 100%;
-    }
-  }
 
   @media only screen and (max-width: 767px){
     .navbar-nav{
@@ -170,5 +194,24 @@ body{
         line-height: 1.6;
         font-size: 12px;
     }
+
+  }
+  @media only screen and (max-width: 767px){
+
+    .imagen1{
+       width: 80px;
+       height: 150px;
+       padding-right: 10px;
+    }
+    .imagen2{
+        width: 80px;
+        height: 150px;
+        padding-right: 10px;
+     }
+     .imagen3{
+        width: 80px;
+        height: 150px;
+     }
+
 
   }
